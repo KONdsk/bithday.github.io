@@ -2,16 +2,19 @@
 <html>
 
 <head>
+
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>xvxia</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta itemprop="image" content="./images/fenxiang.png" />
   <style>
-    .text {
-      color: #66ccff;
+    .title {
+      margin-top: 0;
+      color: #000;
     }
 
     .bcimg {
+      margin-top: 0;
       background-color: #66ccff;
       width: 100%;
       height: 100%;
@@ -120,7 +123,16 @@
 <body>
 
   <div class="cs">
-    <img src="a2.jpg" id="logo">
+
+
+    <!-- 使用video嵌入本地视频 -->
+    <!-- <div style="width: 500px;height: 380px;margin: 250px auto;"> -->
+
+
+
+
+
+    <!-- <img src="a2.jpg" id="logo"> -->
   </div>
   <canvas class="canvas" width="1820" height="905"></canvas>
   <p class="text" style="color: #ed3073;">
@@ -162,7 +174,7 @@
         S.Drawing.init('.canvas');
         document.body.classList.add('body--ready');
         //想说的话
-        S.UI.simulate("母様|HAPPYBIRTHDAY|#countdown 3|#rectangle 15x15|#circle 12 |#time");
+        S.UI.simulate("xvxia|happy|birthday|to|you |#time");
         S.Drawing.loop(function () {
           S.Shape.render();
         });
@@ -617,25 +629,6 @@
 
   </script>
 
-  <div class="bcimg">
-    <!-- 使用video嵌入本地视频 -->
-    <!-- <div style="width: 500px;height: 380px;margin: 250px auto;"> -->
-    <div class="text">
-
-      <br>翩若惊鸿，婉若游龙。荣曜秋菊，华茂春松<br>髣髴兮若轻云之蔽月，飘飖兮若流风之回雪
-    </div>
-    <img src="a7.jpg" alt=""><br>
-    <audio controls autoplay>
-
-      <source src="a6.mp3" type="audio/mp3" class="voice" />
-
-      您的浏览器不支持 audio 元素。
-
-    </audio><br>
-    <div>
-      <img src="a5.jpg" alt="">
-    </div>
-  </div>
   </div>
 </body>
 
